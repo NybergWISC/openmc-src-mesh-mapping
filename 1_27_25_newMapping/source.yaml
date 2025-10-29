@@ -1,0 +1,36 @@
+# source.yaml file
+
+fusion_source:
+    space:
+        distribution: 
+            'CylindricalIndependent'
+        phi:
+            distribution: 'Uniform'
+            a: 0
+            b: 6.28
+        r:
+            distribution: 'Tabular'
+            x: 
+                [0,50]
+            p: 
+                [1,0]
+            interpolation: 'linear-linear'
+        z:
+            distribution: 'Tabular'
+            x: 
+                [-100,-80,-60,-58,-40,-20,0,20,40,58,60,80,100]
+            p: 
+                [0,0.01,2,26,6,4,3,4,6,26,2,0.01,0]
+            interpolation: 'linear-linear'
+        origin: 
+            [0,0,0]
+    angle:
+        distribution: 'Isotropic'
+    energy:
+        distribution: 'Discrete'
+        x: 14100000
+        p: 1
+    strength:
+        5e17
+    particle:
+        'neutron'

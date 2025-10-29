@@ -1,0 +1,3 @@
+/home/mnyberg/Desktop/meshSource_openmc/myBranch/openmc-src-mesh-mapping/1_27_25_newMapping/CMakeFiles/omc-src-map-to-mesh.dir
+/home/mnyberg/Desktop/meshSource_openmc/myBranch/openmc-src-mesh-mapping/1_27_25_newMapping/CMakeFiles/edit_cache.dir
+/home/mnyberg/Desktop/meshSource_openmc/myBranch/openmc-src-mesh-mapping/1_27_25_newMapping/CMakeFiles/rebuild_cache.dir

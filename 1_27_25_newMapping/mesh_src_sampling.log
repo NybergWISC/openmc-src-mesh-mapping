@@ -1,0 +1,9 @@
+Mesh ID: 1
+Mesh bins: 8593
+Warning: 600 sampled sites were outside the mesh
+Total external source strength: 5e+17
+--------------
+Time Summary: 
+--------------
+Source mapping (100000000 sites): 307.225s
+File output: 0.0330337 s

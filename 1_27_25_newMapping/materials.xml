@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material depletable="true" id="1" name="fuel" temperature="873.15">
+    <density units="g/cm3" value="1.62134"/>
+    <nuclide name="Np237" wo="0.0642"/>
+    <nuclide name="Pu238" wo="0.0318"/>
+    <nuclide name="Pu239" wo="0.4393"/>
+    <nuclide name="Pu240" wo="0.2127"/>
+    <nuclide name="Pu241" wo="0.1352"/>
+    <nuclide name="Pu242" wo="0.0788"/>
+    <nuclide name="Am241" wo="0.0055"/>
+    <nuclide name="Am243" wo="0.0233"/>
+    <nuclide name="Cm244" wo="0.0092"/>
+  </material>
+  <material id="2" name="li_salt" temperature="873.15">
+    <density units="sum"/>
+    <nuclide ao="0.9241" name="Li7"/>
+    <nuclide ao="0.0759" name="Li6"/>
+  </material>
+  <material depletable="true" id="3" name="fuel(0.018518518518518517)-li_salt(0.33796296296296297)-be_salt(0.125)-f_salt(0.5185185185185185)" temperature="900">
+    <density units="g/cm3" value="3.322"/>
+    <nuclide ao="0.0012024663903622884" name="Np237"/>
+    <nuclide ao="0.0005931086645173327" name="Pu238"/>
+    <nuclide ao="0.00815911503876092" name="Pu239"/>
+    <nuclide ao="0.003933991451040114" name="Pu240"/>
+    <nuclide ao="0.0024901857490914423" name="Pu241"/>
+    <nuclide ao="0.001445373126551642" name="Pu242"/>
+    <nuclide ao="0.00010130194443392699" name="Am241"/>
+    <nuclide ao="0.0004256126134391962" name="Am243"/>
+    <nuclide ao="0.00016736354032164945" name="Cm244"/>
+    <nuclide ao="0.31231157407407406" name="Li7"/>
+    <nuclide ao="0.025651388888888883" name="Li6"/>
+    <nuclide ao="0.12500000000000003" name="Be9"/>
+    <nuclide ao="0.5185185185185186" name="F19"/>
+  </material>
+  <material id="14" name="be_salt" temperature="873.15">
+    <density units="sum"/>
+    <nuclide ao="1.0" name="Be9"/>
+  </material>
+  <material id="114" name="f_salt" temperature="873.15">
+    <density units="sum"/>
+    <nuclide ao="1.0" name="F19"/>
+  </material>
+</materials>
